@@ -27,7 +27,7 @@ import PackageDescription
 import PackageDescription
 
 let package = Package(
-    name: "YourPackage",
+    name: "DeepSwiftSeek",
     platforms: [
         .macOS(.v12) // ✅ Set macOS 12 or later
     ],
@@ -36,8 +36,8 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "YourTarget",
-            dependencies: []
+            name: "DeepSwiftSeek",
+            dependencies: ["DeepSwiftSeek"]
         )
     ]
 )
